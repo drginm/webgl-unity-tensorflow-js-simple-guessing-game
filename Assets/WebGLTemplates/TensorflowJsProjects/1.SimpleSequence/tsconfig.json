@@ -1,0 +1,20 @@
+{
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.meta"
+  ],
+  "compilerOptions": {
+    "target": "es3",
+    "lib": ["es5", "es6", "dom"],
+    "allowSyntheticDefaultImports":true,
+    "listFiles":true,
+    "allowJs":true,
+    "moduleResolution": "node",
+    "module": "es2015",
+    "types": ["@tensorflow/tfjs"],
+  }
+}

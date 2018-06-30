@@ -1,0 +1,22 @@
+{
+  "name": "game-brain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.11.7",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-replace": "^0.6.1",
+    "gulp-typescript": "^4.0.2",
+    "gulp-watch": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.3"
+  }
+}
