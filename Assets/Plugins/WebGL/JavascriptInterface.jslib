@@ -1,4 +1,3 @@
-//https://docs.unity3d.com/Manual/webgl-interactingwithbrowserscripting.html
 mergeInto(LibraryManager.library, {
   StartTraining: function (xValues, yValues, size) {
     var xValuesArray = [],
