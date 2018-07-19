@@ -2,8 +2,9 @@
 
 > Webgl Unity simple guessing game using tensorflow.js
 
-[How to integrate Tensorflow.Js and Unity by Creating a simple guessing game Post](https://www.dlighthouse.co//2018/07/tensorflowjs-unity-guessing-game.html)
-[Youtube Video](https://youtu.be/JAMiusAc7IM)
+* [Live Game](https://drginm.github.io/webgl-unity-tensorflow-js-simple-guessing-game/)
+* [How to integrate Tensorflow.Js and Unity by Creating a simple guessing game Post](https://www.dlighthouse.co//2018/07/tensorflowjs-unity-guessing-game.html)
+* [Youtube Video](https://youtu.be/JAMiusAc7IM)
 
 ## Tensorflow.js Build Setup
 
