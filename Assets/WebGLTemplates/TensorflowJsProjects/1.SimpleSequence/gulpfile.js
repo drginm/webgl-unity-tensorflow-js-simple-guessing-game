@@ -9,8 +9,8 @@ var tsProject = ts.createProject('tsconfig.json');
 
 gulp.task('default', function() {
 
-  return watch('js/**.ts*', { ignoreInitial: false }, function () {
-    gulp.src("js/**.ts*")
+  return watch('js/**.ts', { ignoreInitial: false }, function () {
+    gulp.src("js/**.ts")
       .pipe(tsProject())
       .pipe(replace(/import .*/g, ''))
       .pipe(replace(/export .*/g, ''))

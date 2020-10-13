@@ -1,8 +1,9 @@
 import * as tf from '@tensorflow/tfjs';
 
-var publicInterface = window.PublicInterface = window.PublicInterface || {};
 
-window.PublicInterface.onUnityInitialized = function() {
+var publicInterface = (window as any).PublicInterface = (window as any).PublicInterface || {};
+
+publicInterface.onUnityInitialized = function() {
   console.log('Unity WebGL online');
 }
 
